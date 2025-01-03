@@ -6,7 +6,7 @@ use tokio::time::{self, Duration};
 
 #[derive(Parser)]
 struct Cli {
-    url: String,
+        url: Strin,
     wordlist: String,
 }
 fn get_urls(url: String, path: String) -> Vec<String> {
